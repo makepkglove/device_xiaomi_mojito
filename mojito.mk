@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some Project-Zephyrus stuff
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
