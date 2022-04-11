@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some blaze stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
